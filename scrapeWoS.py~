@@ -147,8 +147,6 @@ try :
 except :
     pass
 
-browser.close()
-
 if args.dis==False:
     display.stop()
 
