@@ -73,7 +73,7 @@ def scrapeWoS( link, browser, rFrom, rTo, i ):
     rTo = str(rTo)
 
     browser.execute_script("window.scrollTo(0, 0);")
-	time.sleep(1)
+    time.sleep(1)
     browser.find_element_by_xpath("//div[@id='s2id_saveToMenu']//b").click() # save to arrow
 
     if i == 1:
